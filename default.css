@@ -12,3 +12,6 @@ ul{
 input[type=checkbox]{
     accent-color: #9f72b0;
 }
+p{
+    font-size: 16px;
+}

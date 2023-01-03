@@ -17,7 +17,9 @@
 <!--Sidebar-->
 <section class="sidebar-container">
   <div class="image-div">
-    <img src="Resources/ik.jpeg" alt="Pers. Foto">
+    <a href="https://www.linkedin.com/in/emre-ilbay-896b44252/" target="_blank">
+      <img src="Resources/ik.jpeg" alt="Pers. Foto">
+    </a>
     <p class="image-div-name">Emre Ilbay</p>
     <p class="image-div-descr">PXL-Student</p>
   </div>
@@ -54,14 +56,16 @@
 
   <h3 class="title">Curriculum Vitae</h3>
   <article class="mijn-foto-container">
-    <img src="Resources/ik.jpeg" alt="ik">
+    <a href="https://www.linkedin.com/in/emre-ilbay-896b44252/" target="_blank">
+      <img src="Resources/ik.jpeg" alt="ik">
+    </a>
     <h2>Emre Ilbay</h2>
     <p>PXL-Student</p>
   </article>
     <!--Over mij-->
-  <div class="aboutme-opleidingen-wrapper">
+  <section class="aboutme-opleidingen-wrapper">
     <article class="about-me">
-      <h3 class="default-header">Over mij:</h3>
+      <h3>Over mij:</h3>
       <div class="title-separator"></div>
       <p>
         Programmeren is altijd een grote hobby van mij geweest.
@@ -73,29 +77,33 @@
       </p>
     </article>
     <!--Opleidingen-->
-    <article class="opleidingen-container">
-      <h3 class="default-header">Opleidingen:</h3>
-      <div class="title-separator"></div>
-      <div class="opleidingen-description-container">
-        <div>
-          <p> Getuigschrift 2e graad ASO.</p>
-          <p class="opleiding-jaar">Start 2013 -> Finish 2019</p>
+    <div class="opleidingen-competenties-container">
+      <article class="opleidingen-container">
+        <h3>Opleidingen:</h3>
+        <div class="title-separator"></div>
+        <div class="opleidingen-description-container">
+          <div>
+            <p> Getuigschrift 2e graad ASO.</p>
+            <p class="opleiding-jaar">Start 2013 -> Finish 2019</p>
+          </div>
+          <div>
+            <p>Graduaat in programmeren.</p>
+            <p class="opleiding-jaar">Start 2022 -> Finish ...</p>
+          </div>
         </div>
-        <div>
-          <p>Graduaat in programmeren.</p>
-          <p class="opleiding-jaar">Start 2022 -> Finish ...</p>
-        </div>
-      </div>
-      <!--Vaardigheden-->
-      <h3 class="default-header">Competenties:</h3>
-      <div class="title-separator"></div>
-      <ul>
-        <li>WPF, C# & XAML</li>
-        <li>Html& Css</li>
-        <li>Sql*Plus</li>
-      </ul>
-    </article>
-  </div>
+      </article>
+      <article class="competenties-container">
+        <!--Vaardigheden-->
+        <h3>Competenties:</h3>
+        <div class="title-separator"></div>
+        <ul>
+          <li>WPF, C# & XAML</li>
+          <li>Html& Css</li>
+          <li>Sql*Plus</li>
+        </ul>
+      </article>
+    </div>
+  </section>
     <!--Personalia-->
     <article class="personalia-container">
       <h3 class="default-header">Personalia:</h3>
@@ -183,6 +191,16 @@
         </div>
       </div>
       <div class="taal-item">
+        <p>Turks:</p>
+        <div class="taal-score-container">
+          <div class="dot-2"></div>
+          <div class="dot-2"></div>
+          <div class="dot-2"></div>
+          <div class="dot-1"></div>
+          <div class="dot-1"></div>
+        </div>
+      </div>
+      <div class="taal-item">
         <p>Frans:</p>
         <div class="taal-score-container">
           <div class="dot-2"></div>
@@ -239,15 +257,17 @@
             <h4>(Student) Kassamedewerker:</h4>
             <p class="werkervaring-datum">9-April-2019 -> 31-Aug-2019</p>
           </div>
-          <p class="ervaring-plaats">Metro in Hasselt</p>
-          <p>
-            Metro is een groothandel dat goederen verkoopt aan klanten met een BTW-nummer.
-            Als kassamedewerker had ik als hoofdtaak om de aankopen van de klanten af te rekenen.
-            Ook moest ik kortingen toepassen, voorraad controleren, winkelwagens omtassen, etc.
-          </p>
-          <a href="https://www.sligro-m.be/" target="_blank">
+            <p class="ervaring-plaats">Metro in Hasselt</p>
+            <p>
+              Metro is een groothandel dat goederen verkoopt aan klanten met een BTW-nummer.
+              Als kassamedewerker had ik als hoofdtaak om de aankopen van de klanten af te rekenen.
+              Ook moest ik kortingen toepassen, voorraad controleren, winkelwagens omtassen, etc.
+            </p>
+          <div class="button-container">
+            <a href="https://www.sligro-m.be/" target="_blank">
             <button>Bezoek Website</button>
           </a>
+          </div>
         </div>
         <div class="ervaring-container color1">
           <div class="splitter">
@@ -256,7 +276,7 @@
           </div>
           <p class="ervaring-plaats">Neovia in Houthalen-Helchteren</p>
           <p>
-            Neovia in Houthalen levert opslag en distributie voor Harley-Davidson motoronderdelen.
+            Neovia in Houthalen levert opslag en distributie voor Harley-Davidson's motoronderdelen.
             Ik had als hoofdtaak om binnenkomende paletten te separeren en ordenen zodat ze zo op hun plaats
             gelokeerd konden worden. In aanvulling deed ik ook aan multi-labeling.
           </p>
