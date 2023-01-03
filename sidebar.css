@@ -1,0 +1,52 @@
+.sidebar-container{
+    display: flex; flex-direction: column;
+    position: fixed;
+    top: 0; left: 0; bottom: 0;
+    width: 30%; min-width: 12rem; max-width: 20rem;
+    background-color: #2B2741; color: whitesmoke;
+    border-right: 4px solid #4e4772;
+
+}
+.sidebar-container div{
+    background-color: #262238;
+    height: fit-content; width: 1fr;
+    border-radius: 2%;
+    margin: 1rem 1rem 0 1rem;
+}
+.sidebar-container h3{
+    margin: 0.5rem;
+    font-weight: 400;
+}
+.sidebar-container p{
+    margin: 0 0 0 1rem;
+    font-weight: 300;
+}
+
+/*Image Container*/
+.image-div{
+    display: flex; flex-direction: column;
+    height: fit-content; width: fit-content;
+    padding: 0.5rem;
+    text-align: center;
+    align-self: center;
+}
+.image-div img{
+    margin: auto 1rem;
+    width: 12rem; height: 12rem;
+    object-fit: cover; object-position: top;
+    border-radius: 50rem;
+}
+.image-div-name{
+    font-size: 2rem;
+    margin: 1rem 1rem 0 0;
+}
+.image-div-descr{
+    font-size: 1rem;
+    color: lightgray;
+    margin: 0;
+}
+
+/*Contact*/
+.contact-div p{
+    margin: 0.5rem 0 0 1rem;
+}

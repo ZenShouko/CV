@@ -1,0 +1,10 @@
+* {
+    cursor: default;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    background-color: #121212;
+}
+ul{
+    list-style-type: circle;
+}
