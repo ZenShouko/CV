@@ -21,6 +21,9 @@
         margin-left: 20.2rem;
     }
 }
+.content-container p{
+    font-size: 16px;
+}
 h3, h4, p{
     margin: 0;
 }
@@ -169,7 +172,7 @@ h3, h4, p{
     margin: 0.5em 0;
     font-size: 1.2em;
 }
-.ervaringen-grid{ 
+.ervaringen-grid{
     margin-top: 1.2em;
     display: flex;
     flex-wrap: wrap;
@@ -192,8 +195,6 @@ h3, h4, p{
 }
 .ervaring-container:hover{
     border: 2px solid #4d4d4d;
-}
-.ervaring-container p{
 }
 .ervaring-plaats{
     font-size: 1.1em;
