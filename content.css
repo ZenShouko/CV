@@ -11,6 +11,11 @@
         display: none;
     }
 }
+@media (min-width: 900px){
+    .mijn-foto-container img{
+        display: none;
+    }
+}
 @media (min-width: 1080px){
     .content-container{
         margin-left: 20.2rem;
@@ -46,6 +51,31 @@ h3, h4, p{
     text-shadow: 0 0 1px gray;
     width: 100%;
 }
+
+/*Mijn-foto*/
+.mijn-foto-container{
+    background-color: #1f1f1f;
+    color: #dedede;
+    box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 1em 1em 0.5em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.mijn-foto-container img{
+    width: 60vw; max-width: 320px;
+    margin: 1em auto 0 auto;
+    border-radius: 10px;
+}
+.mijn-foto-container h2{
+    margin: 1rem auto 0 auto;
+}
+.mijn-foto-container p{
+    margin: 0 0 1em 0;
+}
+
 .aboutme-opleidingen-wrapper{
     background-color: #1f1f1f;
     color: #dedede;
@@ -111,12 +141,6 @@ h3, h4, p{
 .personalia-item:hover{
     box-shadow: 0 0 10px 4px rgba(63, 63, 63, 0.5);
 }
-/*@media (max-width: 640px){*/
-/*    .personalia-grid{*/
-/*        grid-template-columns: repeat(2, 1fr);*/
-/*        row-gap: 2vw;*/
-/*    }*/
-/*}*/
 .personalia-left-p{
     font-weight: 500;
 }
