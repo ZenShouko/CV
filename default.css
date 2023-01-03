@@ -8,3 +8,7 @@ body{
 ul{
     list-style-type: circle;
 }
+
+input[type=checkbox]{
+    accent-color: #9f72b0;
+}

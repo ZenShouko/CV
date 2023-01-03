@@ -25,7 +25,8 @@ h3, h4, p{
     margin: 0;
 }
 .content-container h3{
-    color: #dad4e4;
+    color: #9f72b0;
+    text-shadow: 1px 1px #111111;
 }
 .title-separator{
     height: 1px; width: 99%;
@@ -188,7 +189,7 @@ h3, h4, p{
     transition: border 300ms;
 }
 .ervaring-container:hover{
-    border: 2px solid #6f6b7a;
+    border: 2px solid #4d4d4d;
 }
 .ervaring-container p{
 }
@@ -299,4 +300,8 @@ button:active{
 }
 .mijn-projecten-container button{
     min-width: 200px;
+}
+.my-projects-button-container{
+    display: flex;
+    column-gap: 1em;
 }
