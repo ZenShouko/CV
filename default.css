@@ -4,6 +4,7 @@
 }
 body{
     background-color: #121212;
+    overflow-x: hidden;
 }
 ul{
     list-style-type: circle;
@@ -18,4 +19,7 @@ p{
 }
 ul, h2, h3, label, h4{
     text-shadow: 1px 1px black;
+}
+h2{
+    margin: 0;
 }

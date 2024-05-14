@@ -16,6 +16,7 @@
     height: fit-content; width: 1fr;
     border-radius: 2%;
     margin: 1rem 1rem 0 1rem;
+    padding: 0.5rem;
     transition: box-shadow 150ms;
 }
 .sidebar-container div:hover{
